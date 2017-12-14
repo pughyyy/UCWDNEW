@@ -1,0 +1,142 @@
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+    
+#menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    background-color: #111;
+}
+
+#footer {
+	padding-top: .5vw;
+	background-color: Black;
+	color: White;
+	margin-top: 0;
+	padding-bottom: .4vw;
+
+	
+}
+
+#footer a{
+	text-decoration: none;
+	color: White;
+	padding: 10px;
+}
+
+.logo{
+	height: 2vw;
+	position: absolute;
+	display: block;
+	right: 10px;
+	Top: 3px;
+}
+
+#bg{
+	Margin:1px;
+	Padding:1px;
+	position:relative;
+	display:inline-block;
+}
+.bg1{
+	width:98.5vw;
+	Position:absolute;
+	display:block;
+	z-index:-1;
+	height:49.5vw;
+}
+#main{
+	z-index:2;
+	display:inline-block;
+	background-color: rgba(255,255,255,0.8);
+	padding:5vw;
+}
+#footer1 {
+	padding-top: .5vw;
+	background-color: Black;
+	color: White;
+	margin-top: 1vw;
+	padding-bottom: .4vw;
+	position:absolute;
+	width:100%;
+	bottom:0%;
+	
+}
+
+#footer1 a{
+	text-decoration: none;
+	color: White;
+	padding: 10px;
+}
+
+#player-img {
+	width: 100px;
+	height: 100px
+}
+
+ #largeImgPanel {
+        text-align: center;
+        display: none;
+        position: fixed;
+        z-index: 100;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background-color: rgba(100,100,100, 0.5);
+     }
+	 
+#disc1 {
+	 position: absolute;
+    display: block;
+    left:8%;
+    top: 40%;
+    z-index:2;
+    color: white;
+    opacity:0;
+    transition: opacity .2s ease-out;
+	font-size: 32;
+	
+}	 
+
+#disc2 {
+	position: absolute;
+    display: block;
+    left:1%;
+    top: 40%;
+    z-index:2;
+    color: white;
+    opacity:0;
+    transition: opacity .2s ease-out;
+	font-size: 32;
+}
+
+#disc3 {
+	position: absolute;
+    display: block;
+    left:8%;
+    top: 40%;
+    z-index:2;
+    color: white;
+    opacity:0;
+    transition: opacity .2s ease-out;
+	font-size: 32;
+}
+	 

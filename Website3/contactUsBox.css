@@ -1,0 +1,20 @@
+input {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 500px;
+    height: 80px; 
+}
+
+input[type=text] {
+    background-color: #3CBC8D;
+    color: white;
+}
+
+textarea {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 800px;
+    height: 300px; 
+}

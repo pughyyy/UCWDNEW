@@ -1,0 +1,75 @@
+#menucon {padding: 0.4vw;
+   border-radius: 10px;
+    width: 1500px;
+    height: auto;
+    background-color: aliceblue;
+    display: inline-block;
+    margin-top: 5vw;
+}
+        
+#photos {width: 20vw;
+    height: 40vw;
+    float: left;
+    margin: 20px;
+    background-color: darkgray;
+    position: relative;
+    -webkit-transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+    left:12%;
+    border: black solid;
+}
+#photos:hover{
+    background-color: aqua;
+}
+
+
+#profile {width: 20vw;
+    height: 40vw;
+    float: left;
+    margin: 20px;
+    background-color: darkgray;
+    position: relative;
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    left:9%;
+    border: black solid;
+}
+
+#profile:hover{
+    background-color: aqua;
+}
+
+
+#videos {width: 20vw;
+    height: 40vw;
+    float: left;
+    margin: 20px;
+    background-color: darkgray;
+    position: relative;
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    left:5%;
+    border: black solid;
+}
+
+#videos:hover{
+    background-color: aqua;
+}
+   
+      
+.gall{
+  width:385px;
+height:770px;
+    -webkit-transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+    background-color: deepskyblue;
+    
+    
+}
+.gall:hover{
+    opacity: .5;
+}

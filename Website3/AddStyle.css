@@ -1,0 +1,28 @@
+#add {
+	margin-top: 50px;
+	padding: 10px;
+	padding-top:100px;
+    width: 100%;
+    box-sizing: border-box;
+	position: relative;
+	background-color: #ccffff;
+	height: 100%;
+}
+
+input {
+	width: 50%;
+	padding: 5px;
+	margin: 10px;
+	
+}
+
+#edit {
+	margin-top: 50px;
+	padding: 10px;
+	padding-top:100px;
+    width: 100%;
+    box-sizing: border-box;
+	position: relative;
+	background-color: #ccffff;
+	height: 100%;
+}
